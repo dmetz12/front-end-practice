@@ -1,0 +1,50 @@
+
+
+html * {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightslategray;
+    height: 6vh;
+    padding: 0 25px 0 25px;
+
+}
+
+
+nav > h1 {
+    color: lightgreen;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6em;
+}
+
+
+
+a {
+    color: lightgoldenrodyellow;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    transition: 125ms ease-out;
+}
+
+a:hover {
+    color: rgba(223, 180, 180, 0.707);
+}
+
+
+
+
+
+
+@)
